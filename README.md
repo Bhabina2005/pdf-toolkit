@@ -2,22 +2,19 @@
 
 A lightweight, high-performance, and privacy-first web application designed to handle your PDF needs directly in the browser. No uploads, no servers, just pure client-side processing.
 
----
-
 ##  Live Demo
 
 Check out the live application here:  
 [**https://bhabina2005.github.io/pdf-toolkit/**](https://bhabina2005.github.io/pdf-toolkit/)
 
----
 
 ##  Features
 
 *   * PDF Merger:** Combine multiple PDF documents into a single file with ease.
-*   ** PDF Splitter:** Extract specific page ranges or individual pages into separate documents.
-*   ** Privacy-First:** Files never leave your computer. All processing happens locally in your browser.
-*   ** Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.
-*   ** Glassmorphic UI:** A modern, clean, and visually appealing interface built with cutting-edge CSS.
+*   * PDF Splitter:** Extract specific page ranges or individual pages into separate documents.
+*   * Privacy-First:** Files never leave your computer. All processing happens locally in your browser.
+*   * Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.
+*   * Glassmorphic UI:** A modern, clean, and visually appealing interface built with cutting-edge CSS.
 
 ##  Tech Stack
 
@@ -70,7 +67,6 @@ Follow these steps to set up the project on your local machine:
 | :--- | :--- |
 | ![Landing Page Placeholder](https://via.placeholder.com/400x250?text=Landing+Page) | ![Merger Placeholder](https://via.placeholder.com/400x250?text=PDF+Merger) |
 
----
 
 ##  Future Improvements
 
