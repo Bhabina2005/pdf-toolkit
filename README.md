@@ -1,55 +1,100 @@
-# 🚀 PDF Toolkit — Professional Document Solutions
+# 📄 PDF Toolkit – Professional Client-Side PDF Editor
 
-A high-performance, visually stunning, and completely secure client-side PDF manipulation toolkit. Merge multiple documents or extract precise page ranges with zero server dependency.
+A lightweight, high-performance, and privacy-first web application designed to handle your PDF needs directly in the browser. No uploads, no servers, just pure client-side processing.
 
-![PDF Toolkit Modern UI](https://img.shields.io/badge/UI-Professional-blueviolet)
-![Security-local](https://img.shields.io/badge/Security-100%25_Client--Side-success)
-![Mode-Dynamic](https://img.shields.io/badge/Mode-Dark%20%26%20Light-orange)
+---
+
+## 🚀 Live Demo
+
+Check out the live application here:  
+[**https://your-username.github.io/pdf-toolkit/**](https://your-username.github.io/pdf-toolkit/)
+
+---
 
 ## ✨ Features
 
-- **🌓 Dynamic Theme Support**: Seamlessly switch between **Dark** and **Light** modes. Your preference is automatically saved for a personalized experience.
-- **📄 Document Merger**:
-  - Concatenate multiple PDF streams into a singular unified file.
-  - Interactive file manifest with easy removal options.
-  - Intuitive drag-and-drop interface.
-- **✂️ Precision Splitter**:
-  - Slicing and extraction using cryptographic-performance page indexing.
-  - Supports complex page ranges (e.g., `1-5, 8, 12-15`).
-  - Real-time page count analysis upon document mounting.
-- **💎 Premium Aesthetics**:
-  - **Modern Interface**: Refined glassmorphism, fluid `fade-up` animations, and attractive background blobs.
-  - **Inter Typography**: optimized for industrial-grade readability.
-  - **Responsive Layout**: Designed for seamless performance on desktop, tablet, and mobile.
-- **🔒 Absolute Privacy**:
-  - 100% Secure. All processing occurs locally in your browser memory.
-  - No servers, no uploads, no data harvesting. Your documents stay private.
+*   **⚡ PDF Merger:** Combine multiple PDF documents into a single file with ease.
+*   **✂️ PDF Splitter:** Extract specific page ranges or individual pages into separate documents.
+*   **🔒 Privacy-First:** Files never leave your computer. All processing happens locally in your browser.
+*   **📱 Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.
+*   **🎨 Glassmorphic UI:** A modern, clean, and visually appealing interface built with cutting-edge CSS.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3 (Custom Variables), Bootstrap 5.
-- **Logic**: Vanilla JavaScript (ES6+).
-- **Engine**: [pdf-lib](https://pdf-lib.js.org/) — WASM-accelerated PDF manipulation.
-- **Assets**: Font Awesome Pro Icons, Google Fonts (Inter).
+*   **Frontend:** HTML5, CSS3 (Vanilla), Bootstrap 5
+*   **Logic:** JavaScript (ES6+)
+*   **Library:** [pdf-lib](https://pdf-lib.js.org/) (High-performance PDF manipulation)
+*   **Icons:** Font Awesome / Bootstrap Icons
 
-## 🚀 Getting Started
+---
 
-Simply open `index.html` in any modern web browser. No installation or complex setup required.
+## 🧠 How It Works
 
-## 📖 Usage Guide
+Traditional PDF tools upload your sensitive documents to a remote server for processing. **PDF Toolkit** is different. 
 
-### Merging PDFs
-1. Navigate to the **Merge PDF** interface.
-2. Drag and drop your files into the **Input Stream** zone.
-3. Review your file manifest.
-4. Click **Merge Documents** to execute.
+Using the power of `pdf-lib` and the browser's `ArrayBuffer` API, the application reads your files directly from the input field, performs the requested operations (merging or splitting) in the browser's memory, and generates a download link instantly. Your data remains 100% under your control.
 
-### Splitting PDFs
-1. Navigate to the **Split PDF** interface.
-2. Mount your target PDF buffer in the upload zone.
-3. Enter your desired **P-Index Range** (e.g., `1-3, 5`).
-4. Click **Commence Extraction** to download the result.
+---
+
+## 📂 Project Structure
+
+```text
+pdf-toolkit/
+├── index.html          # Landing page
+├── merge.html          # PDF Merger interface
+├── split.html          # PDF Splitter interface
+├── style.css           # Global styles & Glassmorphism effects
+├── main.js             # General application logic
+├── merge.js            # Logic for merging PDFs
+└── split.js            # Logic for splitting PDFs
+```
+
+---
+
+## 💻 Run Locally
+
+Follow these steps to set up the project on your local machine:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/pdf-toolkit.git
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd pdf-toolkit
+    ```
+3.  **Open in Browser:**
+    Simply open `index.html` in any modern web browser, or use a local server like Live Server (VS Code extension).
+
+---
+
+## 📸 Screenshots
+
+| Landing Page | PDF Merger |
+| :--- | :--- |
+| ![Landing Page Placeholder](https://via.placeholder.com/400x250?text=Landing+Page) | ![Merger Placeholder](https://via.placeholder.com/400x250?text=PDF+Merger) |
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] Add PDF compression functionality.
+- [ ] Implement PDF-to-Image conversion.
+- [ ] Add page reordering via drag-and-drop.
+- [ ] Support for password-protected PDFs.
+
+---
+
+## 👤 Author
+
+**Bhabina Babu**  
+*   [GitHub](https://github.com/your-username)
+*   [LinkedIn](https://linkedin.com/in/your-profile)
+
+---
 
 ## 📜 License
 
-MIT License. Engineered for excellence.
+This project is licensed under the [MIT License](LICENSE).
