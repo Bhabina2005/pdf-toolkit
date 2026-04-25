@@ -60,14 +60,6 @@ Follow these steps to set up the project on your local machine:
 3.  **Open in Browser:**
     Simply open `index.html` in any modern web browser, or use a local server like Live Server (VS Code extension).
 
-
-##  Screenshots
-
-| Landing Page | PDF Merger |
-| :--- | :--- |
-| ![Landing Page Placeholder](https://via.placeholder.com/400x250?text=Landing+Page) | ![Merger Placeholder](https://via.placeholder.com/400x250?text=PDF+Merger) |
-
-
 ##  Future Improvements
 
 - [ ] Add PDF compression functionality.
