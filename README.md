@@ -1,4 +1,4 @@
-# 📄 PDF Toolkit – Professional Client-Side PDF Editor
+# PDF Toolkit – Professional Client-Side PDF Editor
 
 A lightweight, high-performance, and privacy-first web application designed to handle your PDF needs directly in the browser. No uploads, no servers, just pure client-side processing.
 
