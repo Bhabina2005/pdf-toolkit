@@ -10,11 +10,11 @@ Check out the live application here:
 
 ##  Features
 
-*   PDF Merger:** Combine multiple PDF documents into a single file with ease.
-*    PDF Splitter:** Extract specific page ranges or individual pages into separate documents.
-*   Privacy-First:** Files never leave your computer. All processing happens locally in your browser.
-*   Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.
-*   Glassmorphic UI:** A modern, clean, and visually appealing interface built with cutting-edge CSS.
+*   PDF Merger: Combine multiple PDF documents into a single file with ease.
+*    PDF Splitter: Extract specific page ranges or individual pages into separate documents.
+*   Privacy-First: Files never leave your computer. All processing happens locally in your browser.
+*   Responsive Design: Fully optimized for desktops, tablets, and mobile devices.
+*   Glassmorphic UI: A modern, clean, and visually appealing interface built with cutting-edge CSS.
 
 ##  Tech Stack
 
